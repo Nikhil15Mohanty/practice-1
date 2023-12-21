@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 24px auto;
+    height: 32px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu-item{
+    margin: 0 24px;
+    text-transform: uppercase;
+}
+.log-btn{
+    padding: 6px 12px;
+    text-align: center;
+    background-color: #D01C28;
+    color: #fff;
+    border: none;
+}
+.foo-img{
+    margin-top: 12px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
